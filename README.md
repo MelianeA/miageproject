@@ -1,16 +1,13 @@
-# clothing
+Ceci est la réalisation du TP flutter Ce projet vise à reproduire une version light de vinted Pour cela, nous avons réalisée certaines fonctionnalités dont : 
 
-A new Flutter project.
+L'espace de connexion qui effectue une vérification dans notre base de données firebase et qui permet à un utilisateur d'accéder à la page d'accueil si ses informations sont correctes 
 
-## Getting Started
+L'espace d'inscription pour les nouveaux utilisateurs qui souhaitent créer un compte pour pouvoir accéder aux différents produits 
 
-This project is a starting point for a Flutter application.
+A la connexion, l'utilisateur est redirigé vers une page d'accueil qui contient des catégories par exemple "haut", "robe", "bas" 
 
-A few resources to get you started if this is your first Flutter project:
+Lorsque l'utilisateur clique sur une catégorie, il accède aux différents produits de la catégorie 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+L'utilisateur peut s'il le souhaite afficher les informations de son compte et aussi les modifier 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+La dernière fonctionnalité développée est la déconnexion 
