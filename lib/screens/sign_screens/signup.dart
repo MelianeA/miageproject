@@ -62,7 +62,7 @@ class _SignupPageState extends State<SignupPage> {
               Column(
                 children: <Widget>[
                   Text(
-                    "Sign up",
+                    "S'inscrire'",
                     style: TextStyle(
                       fontSize: 30,
                       fontWeight: FontWeight.bold,
@@ -72,7 +72,7 @@ class _SignupPageState extends State<SignupPage> {
                     height: 5,
                   ),
                   Text(
-                    "Create an account, It's free ",
+                    "Creation d'un nouveau compte",
                     style: TextStyle(fontSize: 15, color: Colors.grey[700]),
                   )
                 ],
@@ -83,7 +83,7 @@ class _SignupPageState extends State<SignupPage> {
                     keyboardType: TextInputType.text,
                     controller: _nameController,
                     decoration: InputDecoration(
-                        labelText: 'Full Name',
+                        labelText: 'Nom',
                         labelStyle: TextStyle(
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.bold,
@@ -115,7 +115,7 @@ class _SignupPageState extends State<SignupPage> {
                     keyboardType: TextInputType.text,
                     controller: _birthdayController,
                     decoration: InputDecoration(
-                        labelText: 'Birthday',
+                        labelText: 'Date de naissance',
                         labelStyle: TextStyle(
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.bold,
@@ -131,7 +131,7 @@ class _SignupPageState extends State<SignupPage> {
                     keyboardType: TextInputType.phone,
                     controller: _phoneController,
                     decoration: InputDecoration(
-                        labelText: 'Phone Number',
+                        labelText: 'Numero',
                         labelStyle: TextStyle(
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.bold,
@@ -164,7 +164,7 @@ class _SignupPageState extends State<SignupPage> {
                     keyboardType: TextInputType.text,
                     controller: _adressController,
                     decoration: InputDecoration(
-                        labelText: 'Address',
+                        labelText: 'Addresse',
                         labelStyle: TextStyle(
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.bold,
@@ -180,7 +180,7 @@ class _SignupPageState extends State<SignupPage> {
                     keyboardType: TextInputType.text,
                     controller: _codeController,
                     decoration: InputDecoration(
-                        labelText: 'Postal Code',
+                        labelText: 'Code postal',
                         labelStyle: TextStyle(
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.bold,
@@ -196,7 +196,7 @@ class _SignupPageState extends State<SignupPage> {
                     keyboardType: TextInputType.text,
                     controller: _cityController,
                     decoration: InputDecoration(
-                        labelText: 'City',
+                        labelText: 'ville',
                         labelStyle: TextStyle(
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.bold,

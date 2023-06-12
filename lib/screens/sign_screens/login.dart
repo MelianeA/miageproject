@@ -133,7 +133,7 @@ class _LoginPageState extends State<LoginPage> {
                         borderRadius: BorderRadius.circular(50),
                       ),
                       child: Text(
-                        "Login",
+                        "Se connecter",
                         style: TextStyle(
                           fontWeight: FontWeight.w600,
                           fontSize: 18,
